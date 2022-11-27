@@ -4,7 +4,6 @@ import Planets from '../data/planets';
 
 export default function SolarSystem() {
   const planetas = Planets;
-  console.log(planetas);
   return (
     <div data-testid="solar-system">
       <Title headline="Planetas" />

@@ -13,7 +13,7 @@ export default function MissionCard({ name, year, country, destination }) {
 
 MissionCard.propTypes = {
   name: PropTypes.string,
-  year: PropTypes.number,
+  year: PropTypes.string,
   country: PropTypes.string,
   destination: PropTypes.string,
 };
