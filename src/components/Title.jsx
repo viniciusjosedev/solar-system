@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Title extends React.Component {
   render() {
@@ -8,3 +9,11 @@ export default class Title extends React.Component {
     );
   }
 }
+
+Title.propTypes = {
+  headline: PropTypes.string,
+};
+
+Title.defaultProps = {
+  headline: 'string',
+};
